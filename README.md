@@ -1,6 +1,6 @@
 # Awesome-Relational-Spreadsheet-Platform
 
-# Top Relational Spreadsheet Platform Ecosystem
+## Top Relational Spreadsheet Platform Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Database-Backed Grids, Python Formulas & Self-Hosted Data Sovereignty*  
