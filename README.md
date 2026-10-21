@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awssome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Relational-Spreadsheet-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Relational-Spreadsheet-Platform?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Relational-Spreadsheet-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Relational-Spreadsheet-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Relational-Spreadsheet-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Relational-Spreadsheet-Platform?style=flat-square&color=blue" alt="GitHub Forks"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
   <a href="#-how-to-contribute"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -34,7 +34,7 @@ Relational spreadsheet platforms bridge the ergonomic divide between the intuiti
 - [☁️ SaaS & Hosted Platforms](#️-saas--hosted-platforms)
 - [🛠️ Open-Source GitHub Projects](#️-open-source-github-projects)
   - [📊 Open-Source Quick Comparison Matrix](#-open-source-quick-comparison-matrix)
-  - [🔍 Deep Dives by Star Count](#-deep-dives-by-star-count)
+  - [🔍 Deep Dives by Stars_Count](#-deep-dives-by-star-count)
 - [💡 Architectural Evaluation Guide](#-architectural-evaluation-guide)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⭐ Star History](#-star-history)
@@ -76,96 +76,96 @@ Below is an exhaustive breakdown of the leading hosted relational spreadsheet pl
 
 The open-source relational spreadsheet ecosystem has exploded to offer enterprise-grade capabilities: zero artificial record caps, complete database ownership, Python formulas, and air-gapped self-hosting.
 
-Below, all projects are **sorted in descending order by GitHub Star count**. Each star badge links directly to that repository's stargazers page.
+Below, all projects are **sorted in descending order by GitHub Stars_Count**. Each Stars_Badge links directly to that repository's stargazers page.
 
 ### 📊 Open-Source Quick Comparison Matrix
 
-| Repository | GitHub Stars | Primary License | Core Storage Engine | Formula Engine | API Capabilities |
+| Repository | GitHub_Stars | Primary License | Core Storage Engine | Formula Engine | API Capabilities |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Existing PostgreSQL / MySQL / SQL Server / SQLite | Excel-style + Custom Formula Builder | Auto-generated REST + Webhooks |
-| **[Directus](https://github.com/directus/directus)** | [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | BSL 1.1 / Apache 2.0 | Any SQL Database (Postgres, MySQL, SQLite, Oracle, MariaDB) | Dynamic Computations & Flows | Real-time REST + GraphQL + WebSockets |
-| **[Budibase](https://github.com/Budibase/budibase)** | [![GitHub stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers) | GPL-3.0 | Budibase Internal DB (CouchDB) / External SQL | JavaScript & Built-in Bindings | REST API + Webhooks |
-| **[Teable](https://github.com/teableio/teable)** | [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers) | AGPL-3.0 | Pure Native PostgreSQL | SQL Expressions & Real-time formulas | Full OpenAPI REST + Real-time Sync |
-| **[APITable](https://github.com/apitable/apitable)** | [![GitHub stars](https://img.shields.io/github/stars/apitable/apitable?style=social&color=white)](https://github.com/apitable/apitable/stargazers) | AGPL-3.0 | MySQL & Redis | Spreadsheet Formulas & Rollups | REST API + Automation Widgets |
-| **[Grist](https://github.com/gristlabs/grist-core)** | [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers) | Apache-2.0 | SQLite (Portable Single-File `.grist`) | **Full Python Standard Library** | REST API + Custom Webhook Widgets |
-| **[Rowy](https://github.com/buildship-ai/rowy)** | [![GitHub stars](https://img.shields.io/github/stars/buildship-ai/rowy?style=social&color=white)](https://github.com/buildship-ai/rowy/stargazers) | Apache-2.0 | Google Cloud Firestore / Firebase | JavaScript / TypeScript Cloud Functions | Cloud Run Webhooks & REST |
-| **[Baserow](https://github.com/baserow/baserow)** | [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | MIT (Open Core) | PostgreSQL (Django ORM Backend) | Rich Functional Formula Language | OpenAPI REST + Webhooks |
-| **[Mathesar](https://github.com/mathesar-foundation/mathesar)** | [![GitHub stars](https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white)](https://github.com/mathesar-foundation/mathesar/stargazers) | GPL-3.0 | Native PostgreSQL (Direct Schema Reflection) | Native PostgreSQL Functions & SQL | REST API over Postgres Schema |
-| **[Undb](https://github.com/undb-io/undb)** *(Archived)* | [![GitHub stars](https://img.shields.io/github/stars/undb-io/undb?style=social&color=white)](https://github.com/undb-io/undb/stargazers) | MIT | Single-File SQLite | Lightweight Formulas | OpenAPI + Real-time Subscriptions |
-| **[Saltcorn](https://github.com/saltcorn/saltcorn)** | [![GitHub stars](https://img.shields.io/github/stars/saltcorn/saltcorn?style=social&color=white)](https://github.com/saltcorn/saltcorn/stargazers) | MIT | PostgreSQL / SQLite | JavaScript Formulas | REST API |
-| **[SeaTable](https://github.com/seatable/seatable)** | [![GitHub stars](https://img.shields.io/github/stars/seatable/seatable?style=social&color=white)](https://github.com/seatable/seatable/stargazers) | Community / Commercial | MySQL + Ceph / Local Disk Storage | Built-in Formulas & Python Scripts | REST API + Python SDK |
+| **[NocoDB](https://github.com/nocodb/nocodb)** | [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers) | AGPL-3.0 | Existing PostgreSQL / MySQL / SQL Server / SQLite | Excel-style + Custom Formula Builder | Auto-generated REST + Webhooks |
+| **[Directus](https://github.com/directus/directus)** | [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers) | BSL 1.1 / Apache 2.0 | Any SQL Database (Postgres, MySQL, SQLite, Oracle, MariaDB) | Dynamic Computations & Flows | Real-time REST + GraphQL + WebSockets |
+| **[Budibase](https://github.com/Budibase/budibase)** | [![GitHub_Stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers) | GPL-3.0 | Budibase Internal DB (CouchDB) / External SQL | JavaScript & Built-in Bindings | REST API + Webhooks |
+| **[Teable](https://github.com/teableio/teable)** | [![GitHub_Stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers) | AGPL-3.0 | Pure Native PostgreSQL | SQL Expressions & Real-time formulas | Full OpenAPI REST + Real-time Sync |
+| **[APITable](https://github.com/apitable/apitable)** | [![GitHub_Stars](https://img.shields.io/github/stars/apitable/apitable?style=social&color=white)](https://github.com/apitable/apitable/stargazers) | AGPL-3.0 | MySQL & Redis | Spreadsheet Formulas & Rollups | REST API + Automation Widgets |
+| **[Grist](https://github.com/gristlabs/grist-core)** | [![GitHub_Stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers) | Apache-2.0 | SQLite (Portable Single-File `.grist`) | **Full Python Standard Library** | REST API + Custom Webhook Widgets |
+| **[Rowy](https://github.com/buildship-ai/rowy)** | [![GitHub_Stars](https://img.shields.io/github/stars/buildship-ai/rowy?style=social&color=white)](https://github.com/buildship-ai/rowy/stargazers) | Apache-2.0 | Google Cloud Firestore / Firebase | JavaScript / TypeScript Cloud Functions | Cloud Run Webhooks & REST |
+| **[Baserow](https://github.com/baserow/baserow)** | [![GitHub_Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers) | MIT (Open Core) | PostgreSQL (Django ORM Backend) | Rich Functional Formula Language | OpenAPI REST + Webhooks |
+| **[Mathesar](https://github.com/mathesar-foundation/mathesar)** | [![GitHub_Stars](https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white)](https://github.com/mathesar-foundation/mathesar/stargazers) | GPL-3.0 | Native PostgreSQL (Direct Schema Reflection) | Native PostgreSQL Functions & SQL | REST API over Postgres Schema |
+| **[Undb](https://github.com/undb-io/undb)** *(Archived)* | [![GitHub_Stars](https://img.shields.io/github/stars/undb-io/undb?style=social&color=white)](https://github.com/undb-io/undb/stargazers) | MIT | Single-File SQLite | Lightweight Formulas | OpenAPI + Real-time Subscriptions |
+| **[Saltcorn](https://github.com/saltcorn/saltcorn)** | [![GitHub_Stars](https://img.shields.io/github/stars/saltcorn/saltcorn?style=social&color=white)](https://github.com/saltcorn/saltcorn/stargazers) | MIT | PostgreSQL / SQLite | JavaScript Formulas | REST API |
+| **[SeaTable](https://github.com/seatable/seatable)** | [![GitHub_Stars](https://img.shields.io/github/stars/seatable/seatable?style=social&color=white)](https://github.com/seatable/seatable/stargazers) | Community / Commercial | MySQL + Ceph / Local Disk Storage | Built-in Formulas & Python Scripts | REST API + Python SDK |
 
 ---
 
-### 🔍 Deep Dives by Star Count
+### 🔍 Deep Dives by Stars_Count
 
-#### 1. [NocoDB](https://github.com/nocodb/nocodb) [![GitHub stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)
-- **Overview**: The most popular open-source Airtable alternative in the world (~65k+ GitHub stars).
+#### 1. [NocoDB](https://github.com/nocodb/nocodb) [![GitHub_Stars](https://img.shields.io/github/stars/nocodb/nocodb?style=social&color=white)](https://github.com/nocodb/nocodb/stargazers)
+- **Overview**: The most popular open-source Airtable alternative in the world (~65k+ GitHub_Stars).
 - **Architecture**: Connects directly to any existing relational database (PostgreSQL, MySQL, MariaDB, SQL Server, SQLite) without copying data. Metadata is stored in a dedicated configuration database.
 - **Key Features**: Grid, Gallery, Kanban, Form, and Calendar views; auto-generated REST APIs; role-based access control; webhook triggers.
 - **Best For**: Teams with existing operational databases wanting an immediate spreadsheet UI without migration or vendor framework lock-in.
 
-#### 2. [Directus](https://github.com/directus/directus) [![GitHub stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)
+#### 2. [Directus](https://github.com/directus/directus) [![GitHub_Stars](https://img.shields.io/github/stars/directus/directus?style=social&color=white)](https://github.com/directus/directus/stargazers)
 - **Overview**: An open data platform that layers a real-time data studio and instant API directly on top of any SQL database.
 - **Architecture**: Direct mirror over PostgreSQL, MySQL, SQLite, CockroachDB, or Oracle schemas with zero custom data wrappers.
 - **Key Features**: Spreadsheet-like tabular editing, granular column/row permissions, automated Flows, and dual REST & GraphQL endpoints.
 - **Best For**: Developers and teams seeking a production-grade data studio over complex SQL databases with strict schema fidelity.
 
-#### 3. [Budibase](https://github.com/Budibase/budibase) [![GitHub stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers)
+#### 3. [Budibase](https://github.com/Budibase/budibase) [![GitHub_Stars](https://img.shields.io/github/stars/Budibase/budibase?style=social&color=white)](https://github.com/Budibase/budibase/stargazers)
 - **Overview**: Leading open-source low-code platform for internal tools and business workflows.
 - **Architecture**: Features a built-in relational database (Budibase DB) with support for external connections (PostgreSQL, MySQL, MSSQL, MongoDB, REST).
 - **Key Features**: High-performance grid table components, custom internal portals, automated business actions, and enterprise SSO.
 - **Best For**: Internal IT teams building operational applications, approvals, and relational dashboards on top of tables.
 
-#### 4. [Teable](https://github.com/teableio/teable) [![GitHub stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)
+#### 4. [Teable](https://github.com/teableio/teable) [![GitHub_Stars](https://img.shields.io/github/stars/teableio/teable?style=social&color=white)](https://github.com/teableio/teable/stargazers)
 - **Overview**: A high-speed, Postgres-native relational spreadsheet engineered to eliminate Airtable's row limits and latency.
 - **Architecture**: Every base runs on a genuine PostgreSQL schema. Direct SQL queries and spreadsheet UI work concurrently without conflicts.
 - **Key Features**: Scales effortlessly beyond 100k+ rows without performance degradation; AI database agent for prompt-based schema design; real-time multiplayer cursor tracking.
 - **Best For**: Teams needing the exact look and feel of Airtable but powered by raw PostgreSQL performance and scale.
 
-#### 5. [APITable](https://github.com/apitable/apitable) [![GitHub stars](https://img.shields.io/github/stars/apitable/apitable?style=social&color=white)](https://github.com/apitable/apitable/stargazers)
+#### 5. [APITable](https://github.com/apitable/apitable) [![GitHub_Stars](https://img.shields.io/github/stars/apitable/apitable?style=social&color=white)](https://github.com/apitable/apitable/stargazers)
 - **Overview**: An API-first collaborative visual database and open-source Airtable infrastructure.
 - **Architecture**: Microservices-based engine with high-throughput collaborative editing and rich UI widgets.
 - **Key Features**: Bidirectional relational links, embeddable form generators, automation triggers, and extensible widget ecosystem.
 - **Best For**: Developers creating customized data hubs and collaborative multi-view business boards.
 
-#### 6. [Grist](https://github.com/gristlabs/grist-core) [![GitHub stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers)
+#### 6. [Grist](https://github.com/gristlabs/grist-core) [![GitHub_Stars](https://img.shields.io/github/stars/gristlabs/grist-core?style=social&color=white)](https://github.com/gristlabs/grist-core/stargazers)
 - **Overview**: The most database-native, formula-powerful relational spreadsheet platform.
 - **Architecture**: Every document is an independent, portable **SQLite database** (`.grist`). Backups and migrations are instantaneous file copies.
 - **Key Features**: **Full Python formulas** (including standard libraries like `datetime`, `re`, `math`); strict relational column typing; granular row- and column-level ACLs; custom widget sandbox.
 - **Best For**: Regulated, air-gapped, or privacy-critical organizations wanting full Python scripting inside a true relational SQLite file.
 
-#### 7. [Rowy](https://github.com/buildship-ai/rowy) [![GitHub stars](https://img.shields.io/github/stars/buildship-ai/rowy?style=social&color=white)](https://github.com/buildship-ai/rowy/stargazers)
+#### 7. [Rowy](https://github.com/buildship-ai/rowy) [![GitHub_Stars](https://img.shields.io/github/stars/buildship-ai/rowy?style=social&color=white)](https://github.com/buildship-ai/rowy/stargazers)
 - **Overview**: A low-code relational spreadsheet UI for Google Cloud Firestore and Firebase.
 - **Architecture**: Runs entirely inside your Google Cloud Platform (GCP) project via Cloud Run; data never leaves your infrastructure.
 - **Key Features**: 30+ field types; JavaScript and TypeScript cloud functions triggered by field updates; derivative columns.
 - **Best For**: Teams building on Firebase / GCP wanting an intuitive admin panel and spreadsheet backend over NoSQL Firestore collections.
 
-#### 8. [Baserow](https://github.com/baserow/baserow) [![GitHub stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers)
+#### 8. [Baserow](https://github.com/baserow/baserow) [![GitHub_Stars](https://img.shields.io/github/stars/baserow/baserow?style=social&color=white)](https://github.com/baserow/baserow/stargazers)
 - **Overview**: Compliance-certified open-core spreadsheet database with over 150,000 users worldwide.
 - **Architecture**: Built on Django, Vue.js, and PostgreSQL. Highly modular architecture supporting custom plugins.
 - **Key Features**: SOC 2 Type II, GDPR, and HIPAA compliance readiness; built-in AI Assistant (Kuma); custom application builder; infinite self-hosted storage.
 - **Best For**: Enterprises needing rigorous compliance certifications alongside self-hosted sovereignty.
 
-#### 9. [Mathesar](https://github.com/mathesar-foundation/mathesar) [![GitHub stars](https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white)](https://github.com/mathesar-foundation/mathesar/stargazers)
+#### 9. [Mathesar](https://github.com/mathesar-foundation/mathesar) [![GitHub_Stars](https://img.shields.io/github/stars/mathesar-foundation/mathesar?style=social&color=white)](https://github.com/mathesar-foundation/mathesar/stargazers)
 - **Overview**: An intuitive spreadsheet-like interface specifically crafted for PostgreSQL databases.
 - **Architecture**: Directly reflects existing PostgreSQL tables, types, and schemas without creating separate internal tables or altering structures.
 - **Key Features**: Non-technical users can comfortably view, edit, filter, and summarize PostgreSQL data while preserving foreign key integrity and constraints.
 - **Best For**: Engineering teams wanting to give non-technical stakeholders safe, direct spreadsheet access to PostgreSQL data.
 
-#### 10. [Undb](https://github.com/undb-io/undb) *(Archived)* [![GitHub stars](https://img.shields.io/github/stars/undb-io/undb?style=social&color=white)](https://github.com/undb-io/undb/stargazers)
+#### 10. [Undb](https://github.com/undb-io/undb) *(Archived)* [![GitHub_Stars](https://img.shields.io/github/stars/undb-io/undb?style=social&color=white)](https://github.com/undb-io/undb/stargazers)
 - **Overview**: Lightweight single-file private database with spreadsheet views (project archived; core maintainers transitioned effort to Teable).
 - **Architecture**: Embedded SQLite engine requiring a single data file.
 - **Key Features**: Record-level permissions, ERD preview, and instant OpenAPI specs.
 - **Best For**: Prototyping and reference architecture exploration.
 
-#### 11. [Saltcorn](https://github.com/saltcorn/saltcorn) [![GitHub stars](https://img.shields.io/github/stars/saltcorn/saltcorn?style=social&color=white)](https://github.com/saltcorn/saltcorn/stargazers)
+#### 11. [Saltcorn](https://github.com/saltcorn/saltcorn) [![GitHub_Stars](https://img.shields.io/github/stars/saltcorn/saltcorn?style=social&color=white)](https://github.com/saltcorn/saltcorn/stargazers)
 - **Overview**: A flexible open-source, no-code relational database and web application builder.
 - **Architecture**: Operates over PostgreSQL or SQLite with an extensible plugin ecosystem.
 - **Key Features**: Relational table modeling, spreadsheet grid views, built-in access control, and full-page layout builder.
 - **Best For**: Builders looking for an end-to-end relational application framework with minimal resource overhead.
 
-#### 12. [SeaTable](https://github.com/seatable/seatable) [![GitHub stars](https://img.shields.io/github/stars/seatable/seatable?style=social&color=white)](https://github.com/seatable/seatable/stargazers)
+#### 12. [SeaTable](https://github.com/seatable/seatable) [![GitHub_Stars](https://img.shields.io/github/stars/seatable/seatable?style=social&color=white)](https://github.com/seatable/seatable/stargazers)
 - **Overview**: Collaborative spreadsheet-database hybrid engineered for millions of rows.
 - **Architecture**: Distributed backend separating table data storage from file assets (MySQL + storage daemon).
 - **Key Features**: Python and JavaScript script runners, data processing plugins, and comprehensive Docker deployment.
